@@ -121,16 +121,23 @@ h1, h2, h3, p { margin-top: 0; }
 .booking-copy { max-width: 350px; margin: 22px auto 24px; color: #71695e; font-size: 12px; line-height: 1.7; }
 .booking .button { min-width: 178px; background: var(--ink); color: var(--paper); }
 .booking .button:hover { background: #34322d; }
+.booking-contact { margin: 17px 0 0; color: #71695e; font-size: 11px; }
+.booking-contact a { color: var(--ink); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
 .booking-placeholder { margin: 20px 0 0; color: #898174; font-size: 9px; letter-spacing: .025em; }
 
 .site-footer { min-height: 110px; padding: 22px clamp(22px, 5.5vw, 88px); display: grid; grid-template-columns: 1fr 1fr auto; align-items: center; gap: 14px 26px; background: var(--ink); color: var(--paper-light); }
 .footer-brand .brand-mark { width: 38px; height: 38px; }
 .footer-brand .brand-name { font-size: 13px; }
 .footer-brand .brand-name span { font-size: 7px; }
-.site-footer > p { margin: 0; justify-self: center; color: rgba(255,253,249,.64); font-size: 10px; }
-.site-footer > p span { padding: 0 6px; color: var(--paper); }
+.footer-instagram { justify-self: center; display: inline-flex; align-items: center; gap: 9px; color: rgba(255,253,249,.76); font-size: 10px; transition: color .2s ease; }
+.footer-instagram:hover { color: var(--paper); }
+.footer-instagram svg { width: 19px; height: 19px; }
 .back-top { justify-self: end; color: rgba(255,253,249,.76); font-size: 10px; }
 .site-footer > small { grid-column: 1 / -1; padding-top: 10px; border-top: 1px solid var(--line-light); color: rgba(255,253,249,.42); font-size: 9px; letter-spacing: .04em; }
+.whatsapp-float { width: 61px; height: 61px; position: fixed; right: 24px; bottom: 24px; z-index: 30; display: grid; place-items: center; border: 1px solid rgba(17,17,15,.13); border-radius: 50%; background: var(--paper); color: var(--ink); box-shadow: 0 8px 25px rgba(0,0,0,.24); transition: transform .2s ease, background .2s ease, box-shadow .2s ease; }
+.whatsapp-float:hover { transform: translateY(-3px); background: var(--white); box-shadow: 0 12px 29px rgba(0,0,0,.3); }
+.whatsapp-float:focus-visible { outline: 3px solid var(--ink); outline-offset: 4px; }
+.whatsapp-float svg { width: 30px; height: 30px; }
 
 @media (min-width: 1500px) {
   .hero, .proof-strip, .services, .about, .differentials, .site-footer { padding-right: max(8.2vw, calc((100vw - 1400px) / 2)); padding-left: max(8.2vw, calc((100vw - 1400px) / 2)); }
@@ -200,8 +207,10 @@ h1, h2, h3, p { margin-top: 0; }
   .booking { min-height: 470px; padding: 75px 24px 69px; }
   .booking h2 { font-size: clamp(58px, 15vw, 77px); }
   .site-footer { padding: 26px 22px 18px; grid-template-columns: 1fr auto; }
-  .site-footer > p { grid-row: 2; grid-column: 1 / -1; justify-self: start; }
+  .footer-instagram { grid-row: 2; grid-column: 1 / -1; justify-self: start; }
   .back-top { grid-column: 2; grid-row: 1; }
+  .whatsapp-float { width: 56px; height: 56px; right: 18px; bottom: 18px; }
+  .whatsapp-float svg { width: 27px; height: 27px; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }

@@ -10,8 +10,12 @@
   - Critério: apresentar a história e abordagem profissional usando apenas as informações compartilhadas, sem criar biografia factual não fornecida.
 - [x] Apresentação dos diferenciais da barbearia.
   - Critério: comunicar diferenciais de forma compatível com as informações disponíveis, sem alegações factuais não fornecidas.
-- [x] Chamada para agendamento, sem presumir integração com uma plataforma de reservas.
-  - Critério: incluir chamada visual para agendamento, sem presumir nem implementar integração com plataforma de reservas.
+- [x] Chamada para agendamento pelo WhatsApp, sem integração com plataforma de reservas.
+  - Critério: incluir chamada para agendamento que abra uma conversa com Anderson Duarte pelo número informado, sem presumir integração com plataforma de reservas.
+- [x] WhatsApp visível e flutuante.
+  - Critério: exibir o número +55 (54) 9915-2898 na seção de agendamento e um ícone flutuante clicável que abra a conversa no WhatsApp.
+- [x] Instagram da barbearia no rodapé.
+  - Critério: exibir um ícone clicável no rodapé ligado a https://www.instagram.com/asduarte83oficial/.
 - [ ] Imagens conceituais e espaços preparados para substituição futura por fotos reais do Anderson e da barbearia.
   - Critério: usar ilustrações/imagens conceituais que não representem Anderson ou o endereço como se fossem fotos reais; facilitar substituição por fotos reais no futuro.
   - Estado: os espaços e as referências das imagens já estão no site; as duas artes conceituais continuam em geração e serão aplicadas automaticamente ao concluir.
