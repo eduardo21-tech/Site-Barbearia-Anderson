@@ -13,7 +13,7 @@
 - [x] Chamada para agendamento pelo WhatsApp, sem integração com plataforma de reservas.
   - Critério: incluir chamada para agendamento que abra uma conversa com Anderson Duarte pelo número informado, sem presumir integração com plataforma de reservas.
 - [x] WhatsApp visível e flutuante.
-  - Critério: exibir o número +55 (54) 9915-2898 na seção de agendamento e um ícone flutuante clicável que abra a conversa no WhatsApp.
+  - Critério: exibir o número +55 (54) 9915-2898 na seção de agendamento e um ícone flutuante clicável, reconhecível e nas cores do WhatsApp, que abra a conversa no WhatsApp.
 - [x] Instagram da barbearia no rodapé.
   - Critério: exibir um ícone clicável no rodapé ligado a https://www.instagram.com/asduarte83oficial/.
 - [ ] Imagens conceituais e espaços preparados para substituição futura por fotos reais do Anderson e da barbearia.
