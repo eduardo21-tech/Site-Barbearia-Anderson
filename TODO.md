@@ -4,8 +4,8 @@
   - Critério: a página deve apresentar a barbearia e o Anderson Duarte usando a paleta branco, preto e bege #F8EFDE.
 - [x] Destaque para a experiência de mais de 20 anos e mais de 1.000 atendimentos.
   - Critério: exibir que Anderson Duarte tem mais de 20 anos de experiência e mais de 1.000 atendimentos.
-- [x] Seção de serviços, sem inventar preços ou detalhes comerciais não fornecidos.
-  - Critério: incluir uma apresentação de serviços sem inventar preços ou detalhes comerciais não fornecidos.
+- [x] Remoção da seção “O que fazemos” a pedido.
+  - Critério: remover a seção de serviços e o link “Serviços” do menu, sem deixar âncora quebrada.
 - [x] Seção sobre a história e a abordagem profissional do Anderson Duarte.
   - Critério: apresentar a história e abordagem profissional usando apenas as informações compartilhadas, sem criar biografia factual não fornecida.
 - [x] Apresentação dos diferenciais da barbearia.

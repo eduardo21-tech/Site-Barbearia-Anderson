@@ -38,9 +38,9 @@ button { font: inherit; }
 .eyebrow-line { width: 29px; height: 1px; display: inline-block; background: currentColor; }
 .eyebrow-dark { color: #6f675c; }
 h1, h2, h3, p { margin-top: 0; }
-.hero h1, .section-heading h2, .about-copy h2, .differentials h2, .booking h2 { margin-bottom: 0; font-family: var(--serif); font-weight: 500; letter-spacing: -.045em; }
+.hero h1, .about-copy h2, .differentials h2, .booking h2 { margin-bottom: 0; font-family: var(--serif); font-weight: 500; letter-spacing: -.045em; }
 .hero h1 { font-size: clamp(58px, 6.7vw, 99px); line-height: .98; }
-.hero h1 em, .section-heading h2 em, .about-copy h2 em, .differentials h2 em, .booking h2 em { font-weight: 500; }
+.hero h1 em, .about-copy h2 em, .differentials h2 em, .booking h2 em { font-weight: 500; }
 .hero h1 em { color: var(--paper); }
 .hero-description { max-width: 400px; margin: 25px 0 30px; color: rgba(255, 253, 249, .73); font-size: 14px; line-height: 1.85; }
 .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 25px; }
@@ -67,20 +67,6 @@ h1, h2, h3, p { margin-top: 0; }
 .proof-stat strong span { margin-left: 3px; font-size: 21px; }
 .proof-stat > span { color: #71695e; font-size: 9px; letter-spacing: .1em; text-transform: uppercase; }
 .section-pad { padding: clamp(82px, 10vw, 150px) clamp(28px, 8.2vw, 132px); }
-.services { display: grid; grid-template-columns: .82fr 1.18fr; gap: clamp(40px, 8vw, 120px); background: var(--paper-light); }
-.section-heading h2, .about-copy h2, .differentials h2 { font-size: clamp(48px, 5.5vw, 77px); line-height: 1.04; }
-.section-heading h2 em, .about-copy h2 em { color: #817666; }
-.services-content { padding-top: 42px; }
-.section-lede { max-width: 370px; margin-bottom: 36px; color: #686156; font-family: var(--serif); font-size: 20px; line-height: 1.45; }
-.service-list { border-top: 1px solid var(--line); }
-.service-row { min-height: 91px; display: grid; grid-template-columns: 44px minmax(120px, 1fr) minmax(120px, .8fr) 24px; align-items: center; gap: 12px; border-bottom: 1px solid var(--line); transition: padding .2s ease; }
-.service-row:hover { padding-right: 8px; padding-left: 8px; }
-.service-number { color: #8e8578; font-size: 9px; letter-spacing: .1em; }
-.service-row h3 { margin: 0; font-family: var(--serif); font-size: 24px; font-weight: 500; }
-.service-note { color: #837b70; font-size: 10px; letter-spacing: .04em; }
-.service-arrow { justify-self: end; font-size: 17px; }
-.small-note { margin: 18px 0 0; color: #948b7e; font-size: 10px; line-height: 1.6; }
-
 .about { display: grid; min-height: 650px; grid-template-columns: 1fr 1fr; background: var(--paper); }
 .about-art { min-height: 600px; position: relative; overflow: hidden; background: #d9cfbc; }
 .about-art::after { position: absolute; inset: 0; content: ''; background: linear-gradient(0deg, rgba(17,17,15,.48), transparent 32%); pointer-events: none; }
@@ -162,7 +148,7 @@ h1, h2, h3, p { margin-top: 0; }
 .whatsapp-float svg { width: 30px; height: 30px; }
 
 @media (min-width: 1500px) {
-  .hero, .proof-strip, .services, .about, .differentials, .site-footer { padding-right: max(8.2vw, calc((100vw - 1400px) / 2)); padding-left: max(8.2vw, calc((100vw - 1400px) / 2)); }
+  .hero, .proof-strip, .about, .differentials, .site-footer { padding-right: max(8.2vw, calc((100vw - 1400px) / 2)); padding-left: max(8.2vw, calc((100vw - 1400px) / 2)); }
   .hero { padding: 0; grid-template-columns: minmax(0, 1fr) minmax(560px, .94fr); }
   .hero-copy { padding-left: max(8.2vw, calc((100vw - 1400px) / 2)); }
 }
@@ -174,7 +160,7 @@ h1, h2, h3, p { margin-top: 0; }
   .hero-copy { padding-left: 7vw; padding-right: 3vw; }
   .hero-visual { min-height: 570px; }
   .proof-strip { grid-template-columns: 1fr .8fr .9fr; }
-  .services, .differentials { grid-template-columns: 1fr 1fr; gap: 48px; }
+  .differentials { grid-template-columns: 1fr 1fr; gap: 48px; }
   .about-copy { padding-right: 8vw; padding-left: 7vw; }
 }
 @media (max-width: 680px) {
@@ -208,14 +194,9 @@ h1, h2, h3, p { margin-top: 0; }
   .proof-stat strong { font-size: 36px; }
   .proof-stat > span { font-size: 8px; }
   .section-pad { padding: 77px 25px; }
-  .services, .differentials, .gallery { display: block; }
-  .section-heading h2, .about-copy h2, .differentials h2 { font-size: clamp(50px, 13vw, 68px); }
+  .differentials, .gallery { display: block; }
+  .about-copy h2, .differentials h2 { font-size: clamp(50px, 13vw, 68px); }
   .gallery-intro h2 { font-size: clamp(38px, 11.3vw, 49px); }
-  .services-content { padding-top: 34px; }
-  .section-lede { max-width: 320px; font-size: 19px; }
-  .service-row { min-height: 78px; grid-template-columns: 29px minmax(105px, 1fr) minmax(94px, .85fr) 17px; gap: 7px; }
-  .service-row h3 { font-size: 21px; }
-  .service-note { font-size: 9px; }
   .about { display: flex; flex-direction: column; }
   .about-art { min-height: 440px; height: 112vw; max-height: 590px; }
   .about-copy { padding: 68px 25px 76px; }
