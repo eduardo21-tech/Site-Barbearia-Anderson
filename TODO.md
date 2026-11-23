@@ -1,0 +1,21 @@
+# TODO — Duarte Barba Cabelo e Bigode
+
+- [x] Página inicial com identidade visual própria em branco, preto e bege #F8EFDE, apresentando a Duarte Barba Cabelo e Bigode e o Anderson Duarte.
+  - Critério: a página deve apresentar a barbearia e o Anderson Duarte usando a paleta branco, preto e bege #F8EFDE.
+- [x] Destaque para a experiência de mais de 20 anos e mais de 1.000 atendimentos.
+  - Critério: exibir que Anderson Duarte tem mais de 20 anos de experiência e mais de 1.000 atendimentos.
+- [x] Seção de serviços, sem inventar preços ou detalhes comerciais não fornecidos.
+  - Critério: incluir uma apresentação de serviços sem inventar preços ou detalhes comerciais não fornecidos.
+- [x] Seção sobre a história e a abordagem profissional do Anderson Duarte.
+  - Critério: apresentar a história e abordagem profissional usando apenas as informações compartilhadas, sem criar biografia factual não fornecida.
+- [x] Apresentação dos diferenciais da barbearia.
+  - Critério: comunicar diferenciais de forma compatível com as informações disponíveis, sem alegações factuais não fornecidas.
+- [x] Chamada para agendamento, sem presumir integração com uma plataforma de reservas.
+  - Critério: incluir chamada visual para agendamento, sem presumir nem implementar integração com plataforma de reservas.
+- [ ] Imagens conceituais e espaços preparados para substituição futura por fotos reais do Anderson e da barbearia.
+  - Critério: usar ilustrações/imagens conceituais que não representem Anderson ou o endereço como se fossem fotos reais; facilitar substituição por fotos reais no futuro.
+  - Estado: os espaços e as referências das imagens já estão no site; as duas artes conceituais continuam em geração e serão aplicadas automaticamente ao concluir.
+- [x] Layout responsivo para celular e desktop.
+  - Critério: manter conteúdo e chamadas utilizáveis em larguras móveis e desktop.
+- [x] Não conectar ao GitHub.
+  - Critério: não configurar integração nem conectar o projeto a um repositório do GitHub.
