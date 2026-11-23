@@ -29,5 +29,7 @@
   - Critério: remover a importação de Google Fonts, usar pilhas de fontes locais, priorizar a imagem principal, carregar a imagem conceitual secundária de forma preguiçosa e aplicar cache curto a recursos estáticos, mantendo HTML e JSON sem cache.
 - [x] Layout responsivo para celular e desktop.
   - Critério: manter conteúdo e chamadas utilizáveis em larguras móveis e desktop.
+- [x] Rodapé acessível ao rolar até o fim, sem sobreposição em celular.
+  - Critério: manter o rodapé no fluxo normal no final do conteúdo e evitar que o botão flutuante do WhatsApp cubra o rodapé; validar rolagem, menu e ausência de overflow horizontal em viewports de 360 px e 390 px.
 - [x] Não conectar ao GitHub.
   - Critério: não configurar integração nem conectar o projeto a um repositório do GitHub.

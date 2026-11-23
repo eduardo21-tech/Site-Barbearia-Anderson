@@ -18,5 +18,29 @@ if (menuButton && navigation) {
   });
 }
 
+const footer = document.querySelector('.site-footer');
+const floatingWhatsApp = document.querySelector('.whatsapp-float');
+
+if (footer && floatingWhatsApp) {
+  const setFooterOverlapState = (isFooterVisible) => {
+    floatingWhatsApp.classList.toggle('is-footer-visible', isFooterVisible);
+  };
+
+  if ('IntersectionObserver' in window) {
+    const footerObserver = new IntersectionObserver(([entry]) => {
+      setFooterOverlapState(entry.isIntersecting);
+    });
+    footerObserver.observe(footer);
+  } else {
+    const updateFooterOverlap = () => {
+      const footerBounds = footer.getBoundingClientRect();
+      setFooterOverlapState(footerBounds.top < window.innerHeight && footerBounds.bottom > 0);
+    };
+    window.addEventListener('scroll', updateFooterOverlap, { passive: true });
+    window.addEventListener('resize', updateFooterOverlap);
+    updateFooterOverlap();
+  }
+}
+
 const year = document.querySelector('#year');
 if (year) year.textContent = String(new Date().getFullYear());
