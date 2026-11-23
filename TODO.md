@@ -21,8 +21,10 @@
   - Inspiração visual: https://donmanera.com.br/.
 - [x] Galeria de fotos com placeholders para cortes e ambiente da barbearia.
   - Critério: exibir espaços identificados para foto de corte, detalhe do corte e ambiente da barbearia, preparados para substituição posterior por fotos reais.
+- [x] Endereço da barbearia clicável para abrir no Google Maps.
+  - Critério: exibir R. Ramiro Barcelos, 2121 - Planalto, Vacaria - RS, 95210-052 como link para https://maps.app.goo.gl/b4kUWWuM8m6aTZyD6 e incluir os dados fornecidos na marcação estruturada da barbearia.
 - [x] Melhorias de SEO com conteúdo acessível no HTML inicial.
-  - Critério: incluir título, descrição, palavras-chave, Open Graph, Twitter Card e dados estruturados coerentes com a barbearia; não inventar endereço nem domínio público e omitir canonical/og:url até haver domínio real configurado.
+  - Critério: incluir título, descrição, palavras-chave, Open Graph, Twitter Card e dados estruturados coerentes com a barbearia; usar o endereço informado e omitir canonical/og:url até haver domínio público real configurado.
 - [x] Melhorias de desempenho sem dependência de fontes externas.
   - Critério: remover a importação de Google Fonts, usar pilhas de fontes locais, priorizar a imagem principal, carregar a imagem conceitual secundária de forma preguiçosa e aplicar cache curto a recursos estáticos, mantendo HTML e JSON sem cache.
 - [x] Layout responsivo para celular e desktop.
