@@ -60,15 +60,12 @@ h1, h2, h3, p { margin-top: 0; }
 .visual-index { position: absolute; right: 26px; top: 25px; z-index: 2; color: rgba(255,253,249,.64); font-family: var(--serif); font-size: 20px; font-style: italic; }
 .hero-vertical-label { position: absolute; right: 0; top: 50%; z-index: 3; color: rgba(248,239,222,.68); font-size: 8px; letter-spacing: .21em; writing-mode: vertical-rl; transform: translateY(-50%); }
 
-.proof-strip { min-height: 150px; padding: 27px clamp(28px, 8.2vw, 132px); display: grid; grid-template-columns: 1.2fr .72fr .82fr .65fr; align-items: center; gap: 22px; background: var(--paper); }
+.proof-strip { min-height: 150px; padding: 27px clamp(28px, 8.2vw, 132px); display: grid; grid-template-columns: 1.2fr .72fr .82fr; align-items: center; gap: 22px; background: var(--paper); }
 .proof-intro { color: #5f594f; font-family: var(--serif); font-size: 17px; line-height: 1.45; }
 .proof-stat { display: flex; flex-direction: column; gap: 4px; border-left: 1px solid rgba(17,17,15,.24); padding-left: 27px; }
 .proof-stat strong { font-family: var(--serif); font-size: 39px; font-weight: 500; letter-spacing: -.06em; line-height: 1; }
 .proof-stat strong span { margin-left: 3px; font-size: 21px; }
 .proof-stat > span { color: #71695e; font-size: 9px; letter-spacing: .1em; text-transform: uppercase; }
-.proof-signature { justify-self: end; padding-right: 12px; font-family: var(--serif); font-size: 16px; line-height: 1.05; transform: rotate(-7deg); }
-.proof-signature em { font-size: 24px; }
-
 .section-pad { padding: clamp(82px, 10vw, 150px) clamp(28px, 8.2vw, 132px); }
 .services { display: grid; grid-template-columns: .82fr 1.18fr; gap: clamp(40px, 8vw, 120px); background: var(--paper-light); }
 .section-heading h2, .about-copy h2, .differentials h2 { font-size: clamp(48px, 5.5vw, 77px); line-height: 1.04; }
@@ -180,7 +177,6 @@ h1, h2, h3, p { margin-top: 0; }
   .hero-copy { padding-left: 7vw; padding-right: 3vw; }
   .hero-visual { min-height: 570px; }
   .proof-strip { grid-template-columns: 1fr .8fr .9fr; }
-  .proof-signature { display: none; }
   .services, .differentials { grid-template-columns: 1fr 1fr; gap: 48px; }
   .about-copy { padding-right: 8vw; padding-left: 7vw; }
 }
