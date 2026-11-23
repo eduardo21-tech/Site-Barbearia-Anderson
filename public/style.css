@@ -92,9 +92,6 @@ h1, h2, h3, p { margin-top: 0; }
 .about-copy .eyebrow { margin-bottom: 27px; }
 .about-lede { max-width: 390px; margin: 28px 0 16px; font-family: var(--serif); font-size: 20px; line-height: 1.5; }
 .about-body { max-width: 430px; margin: 0; color: #686156; font-size: 12px; line-height: 1.9; }
-.about-signoff { margin-top: 37px; display: flex; align-items: center; gap: 14px; font-family: var(--serif); font-size: 16px; }
-.signoff-line { width: 33px; height: 1px; background: var(--ink); }
-.about-signoff small { display: block; margin-top: 5px; color: #82796d; font-family: var(--sans); font-size: 8px; letter-spacing: .19em; }
 
 .differentials { display: grid; grid-template-columns: .8fr 1.2fr; gap: clamp(45px, 9vw, 145px); background: var(--ink); color: var(--paper-light); }
 .differentials .eyebrow { color: rgba(248,239,222,.63); }
