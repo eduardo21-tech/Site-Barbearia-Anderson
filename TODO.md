@@ -16,9 +16,15 @@
   - Critério: exibir o número +55 (54) 9915-2898 na seção de agendamento e um ícone flutuante clicável, reconhecível e nas cores do WhatsApp, que abra a conversa no WhatsApp.
 - [x] Instagram da barbearia no rodapé.
   - Critério: exibir um ícone clicável no rodapé ligado a https://www.instagram.com/asduarte83oficial/.
-- [ ] Imagens conceituais e espaços preparados para substituição futura por fotos reais do Anderson e da barbearia.
+- [x] Imagens conceituais e espaços preparados para substituição futura por fotos reais do Anderson e da barbearia.
   - Critério: usar ilustrações/imagens conceituais que não representem Anderson ou o endereço como se fossem fotos reais; facilitar substituição por fotos reais no futuro.
-  - Estado: os espaços e as referências das imagens já estão no site; as duas artes conceituais continuam em geração e serão aplicadas automaticamente ao concluir.
+  - Inspiração visual: https://donmanera.com.br/.
+- [x] Galeria de fotos com placeholders para cortes e ambiente da barbearia.
+  - Critério: exibir espaços identificados para foto de corte, detalhe do corte e ambiente da barbearia, preparados para substituição posterior por fotos reais.
+- [x] Melhorias de SEO com conteúdo acessível no HTML inicial.
+  - Critério: incluir título, descrição, palavras-chave, Open Graph, Twitter Card e dados estruturados coerentes com a barbearia; não inventar endereço nem domínio público e omitir canonical/og:url até haver domínio real configurado.
+- [x] Melhorias de desempenho sem dependência de fontes externas.
+  - Critério: remover a importação de Google Fonts, usar pilhas de fontes locais, priorizar a imagem principal, carregar a imagem conceitual secundária de forma preguiçosa e aplicar cache curto a recursos estáticos, mantendo HTML e JSON sem cache.
 - [x] Layout responsivo para celular e desktop.
   - Critério: manter conteúdo e chamadas utilizáveis em larguras móveis e desktop.
 - [x] Não conectar ao GitHub.

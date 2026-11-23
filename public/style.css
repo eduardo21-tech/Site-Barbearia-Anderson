@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap');
-
 :root {
   color-scheme: light;
   --ink: #11110f;
@@ -10,8 +8,8 @@
   --muted: #8a8479;
   --line: rgba(17, 17, 15, .18);
   --line-light: rgba(248, 239, 222, .24);
-  --serif: 'Playfair Display', Georgia, serif;
-  --sans: 'DM Sans', Arial, sans-serif;
+  --serif: 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
 }
 
 * { box-sizing: border-box; }
@@ -112,6 +110,31 @@ h1, h2, h3, p { margin-top: 0; }
 .differential-item p { max-width: 370px; margin: 0; color: rgba(255,253,249,.56); font-size: 11px; line-height: 1.65; }
 .item-mark { color: var(--paper); font-size: 15px; }
 
+.gallery { display: grid; grid-template-columns: .78fr 1.22fr; gap: clamp(42px, 7vw, 110px); background: var(--paper-light); }
+.gallery-intro { align-self: center; }
+.gallery-intro h2 { margin: 0; font-family: var(--serif); font-size: clamp(46px, 5vw, 72px); font-weight: 500; letter-spacing: -.045em; line-height: 1.05; }
+.gallery-intro h2 em { color: #817666; font-weight: 500; }
+.gallery-intro > p:last-child { max-width: 390px; margin: 24px 0 0; color: #686156; font-size: 12px; line-height: 1.9; }
+.gallery-grid { display: grid; grid-template-columns: 1.04fr .96fr; align-content: center; gap: 17px; }
+.gallery-card { min-width: 0; margin: 0; }
+.gallery-card--feature { grid-row: span 2; }
+.gallery-placeholder { min-height: 216px; position: relative; display: grid; place-items: center; overflow: hidden; border: 1px solid rgba(17,17,15,.22); color: var(--paper-light); text-align: center; }
+.gallery-card--feature .gallery-placeholder { min-height: 449px; }
+.gallery-placeholder::before { position: absolute; inset: 13px; content: ''; border: 1px solid rgba(248,239,222,.3); pointer-events: none; }
+.gallery-placeholder--cut { background: radial-gradient(ellipse at 72% 22%, rgba(248,239,222,.2), transparent 29%), linear-gradient(145deg, #171714, #423e35 58%, #8f8069); }
+.gallery-placeholder--detail { background: radial-gradient(ellipse at 22% 70%, rgba(248,239,222,.18), transparent 35%), linear-gradient(135deg, #8c806d, #282722 72%); }
+.gallery-placeholder--space { background: radial-gradient(ellipse at 78% 30%, rgba(248,239,222,.2), transparent 32%), linear-gradient(150deg, #2d2b26, #73644f 72%); }
+.gallery-placeholder-index, .gallery-placeholder-badge { position: absolute; color: rgba(255,253,249,.72); font-size: 8px; letter-spacing: .16em; text-transform: uppercase; }
+.gallery-placeholder-index { top: 25px; left: 25px; }
+.gallery-placeholder-badge { right: 25px; bottom: 24px; }
+.gallery-placeholder-copy { position: relative; display: flex; flex-direction: column; align-items: center; gap: 9px; padding: 25px; }
+.gallery-placeholder-icon { width: 43px; height: 43px; display: grid; place-items: center; border: 1px solid rgba(248,239,222,.55); border-radius: 50%; color: var(--paper); font-size: 19px; }
+.gallery-placeholder-copy > span:not(.gallery-placeholder-icon) { color: rgba(255,253,249,.74); font-size: 9px; letter-spacing: .15em; text-transform: uppercase; }
+.gallery-placeholder-copy strong { font-family: var(--serif); font-size: 18px; font-weight: 500; }
+.gallery-card figcaption { padding: 11px 2px 0; display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.gallery-card figcaption span { color: #81796d; font-size: 8px; letter-spacing: .14em; }
+.gallery-card figcaption strong { font-family: var(--serif); font-size: 13px; font-weight: 500; text-align: right; }
+
 .booking { min-height: 530px; padding: 100px 24px 82px; display: flex; flex-direction: column; align-items: center; justify-content: center; background: var(--paper); text-align: center; }
 .booking-mark { width: 51px; height: 51px; margin-bottom: 29px; }
 .booking-mark img { width: 100%; height: 100%; }
@@ -187,8 +210,9 @@ h1, h2, h3, p { margin-top: 0; }
   .proof-stat strong { font-size: 36px; }
   .proof-stat > span { font-size: 8px; }
   .section-pad { padding: 77px 25px; }
-  .services, .differentials { display: block; }
+  .services, .differentials, .gallery { display: block; }
   .section-heading h2, .about-copy h2, .differentials h2 { font-size: clamp(50px, 13vw, 68px); }
+  .gallery-intro h2 { font-size: clamp(38px, 11.3vw, 49px); }
   .services-content { padding-top: 34px; }
   .section-lede { max-width: 320px; font-size: 19px; }
   .service-row { min-height: 78px; grid-template-columns: 29px minmax(105px, 1fr) minmax(94px, .85fr) 17px; gap: 7px; }
@@ -204,6 +228,11 @@ h1, h2, h3, p { margin-top: 0; }
   .differential-item { min-height: 114px; grid-template-columns: 24px 1fr 18px; gap: 12px; }
   .differential-item h3 { font-size: 19px; }
   .differential-item p { font-size: 10px; }
+  .gallery-grid { margin-top: 35px; grid-template-columns: 1fr; gap: 23px; }
+  .gallery-card--feature { grid-row: auto; }
+  .gallery-placeholder, .gallery-card--feature .gallery-placeholder { min-height: 280px; }
+  .gallery-card--feature .gallery-placeholder { min-height: 370px; }
+  .gallery-card figcaption strong { font-size: 12px; }
   .booking { min-height: 470px; padding: 75px 24px 69px; }
   .booking h2 { font-size: clamp(58px, 15vw, 77px); }
   .site-footer { padding: 26px 22px 18px; grid-template-columns: 1fr auto; }

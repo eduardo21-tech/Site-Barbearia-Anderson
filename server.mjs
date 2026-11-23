@@ -36,9 +36,10 @@ http.createServer((request, response) => {
     response.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' }).end('Not found');
     return;
   }
+  const extension = extname(filePath);
   response.writeHead(200, {
-    'Content-Type': mime[extname(filePath)] || 'application/octet-stream',
-    'Cache-Control': 'no-cache',
+    'Content-Type': mime[extension] || 'application/octet-stream',
+    'Cache-Control': extension === '.html' || extension === '.json' ? 'no-cache' : 'public, max-age=3600',
   });
   createReadStream(filePath).pipe(response);
 }).listen(port, '0.0.0.0', () => {
