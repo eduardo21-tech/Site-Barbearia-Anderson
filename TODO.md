@@ -6,8 +6,8 @@
   - Critério: exibir que Anderson Duarte tem mais de 20 anos de experiência e mais de 1.000 atendimentos.
 - [x] Remoção da seção “O que fazemos” a pedido.
   - Critério: remover a seção de serviços e o link “Serviços” do menu, sem deixar âncora quebrada.
-- [x] Seção sobre a história e a abordagem profissional do Anderson Duarte.
-  - Critério: apresentar a história e abordagem profissional usando apenas as informações compartilhadas, sem criar biografia factual não fornecida.
+- [x] Seção sobre a trajetória profissional do Anderson Duarte com retrato real.
+  - Critério: identificar claramente Anderson Duarte como barbeiro; usar como retrato a foto enviada pelo usuário, com texto alternativo apropriado; apresentar a trajetória e a abordagem profissional somente com informações compartilhadas, sem criar biografia factual não fornecida.
 - [x] Apresentação dos diferenciais da barbearia.
   - Critério: comunicar diferenciais de forma compatível com as informações disponíveis, sem alegações factuais não fornecidas.
 - [x] Chamada para agendamento pelo WhatsApp, sem integração com plataforma de reservas.
@@ -16,8 +16,8 @@
   - Critério: exibir o número +55 (54) 9915-2898 na seção de agendamento e um ícone flutuante clicável, reconhecível e nas cores do WhatsApp, que abra a conversa no WhatsApp.
 - [x] Instagram da barbearia no rodapé.
   - Critério: exibir um ícone clicável no rodapé ligado a https://www.instagram.com/asduarte83oficial/.
-- [x] Imagens conceituais e espaços preparados para substituição futura por fotos reais do Anderson e da barbearia.
-  - Critério: usar ilustrações/imagens conceituais que não representem Anderson ou o endereço como se fossem fotos reais; facilitar substituição por fotos reais no futuro.
+- [x] Imagens conceituais e placeholders claramente distintos de fotos reais.
+  - Critério: identificar as imagens conceituais como estudos visuais e manter placeholders para fotos de cortes e do ambiente; não apresentar ilustrações ou placeholders como fotos reais do Anderson ou da barbearia.
   - Inspiração visual: https://donmanera.com.br/.
 - [x] Galeria de fotos com placeholders para cortes e ambiente da barbearia.
   - Critério: exibir espaços identificados para foto de corte, detalhe do corte e ambiente da barbearia, preparados para substituição posterior por fotos reais.
