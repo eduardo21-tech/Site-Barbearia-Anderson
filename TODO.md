@@ -2,8 +2,8 @@
 
 - [x] Página inicial com identidade visual própria em branco, preto e bege #F8EFDE, apresentando a Duarte Barba Cabelo e Bigode e o Anderson Duarte.
   - Critério: a página deve apresentar a barbearia e o Anderson Duarte usando a paleta branco, preto e bege #F8EFDE.
-- [x] Destaque para a experiência de mais de 20 anos e mais de 1.000 atendimentos.
-  - Critério: exibir que Anderson Duarte tem mais de 20 anos de experiência e mais de 1.000 atendimentos.
+- [x] Destaque para mais de 20 anos de aprendizado e mais de 1.000 atendimentos.
+  - Critério: exibir que Anderson Duarte tem mais de 20 anos de aprendizado e mais de 1.000 atendimentos.
 - [x] Remoção da seção “O que fazemos” a pedido.
   - Critério: remover a seção de serviços e o link “Serviços” do menu, sem deixar âncora quebrada.
 - [x] Seção sobre a trajetória profissional do Anderson Duarte com retrato real.
@@ -31,5 +31,5 @@
   - Critério: manter conteúdo e chamadas utilizáveis em larguras móveis e desktop.
 - [x] Rodapé acessível ao rolar até o fim, sem sobreposição em celular.
   - Critério: manter o rodapé no fluxo normal no final do conteúdo e evitar que o botão flutuante do WhatsApp cubra o rodapé; validar rolagem, menu e ausência de overflow horizontal em viewports de 360 px e 390 px.
-- [x] Não conectar ao GitHub.
-  - Critério: não configurar integração nem conectar o projeto a um repositório do GitHub.
+- [x] Sincronização do código com o repositório GitHub autorizado, sem publicar o site.
+  - Critério: manter a branch main de https://github.com/eduardo21-tech/Site-Barbearia-Anderson sincronizada quando houver pedido autorizado de commit e push; não publicar o site apenas por sincronizar o código.
