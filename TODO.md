@@ -23,8 +23,8 @@
   - Critério: exibir espaços identificados para foto de corte, detalhe do corte e ambiente da barbearia, preparados para substituição posterior por fotos reais.
 - [x] Endereço da barbearia clicável para abrir no Google Maps.
   - Critério: exibir R. Ramiro Barcelos, 2121 - Planalto, Vacaria - RS, 95210-052 como link para https://maps.app.goo.gl/b4kUWWuM8m6aTZyD6 e incluir os dados fornecidos na marcação estruturada da barbearia.
-- [x] Melhorias de SEO com conteúdo acessível no HTML inicial.
-  - Critério: incluir título, descrição, palavras-chave, Open Graph, Twitter Card e dados estruturados coerentes com a barbearia; usar o endereço informado e omitir canonical/og:url até haver domínio público real configurado.
+- [x] SEO técnico, local e social fortalecido no conteúdo e nos metadados.
+  - Critério: manter o conteúdo principal no HTML inicial; usar título de 30–60 caracteres, descrição de 50–160 caracteres, 3–8 termos de palavras-chave e hierarquia clara de títulos; identificar a barbearia e Vacaria, RS no conteúdo visível; fornecer Open Graph e Twitter Card coerentes com imagem social pública e texto alternativo; usar dados estruturados BarberShop com apenas informações confirmadas (nome, barbeiro, telefone, endereço, mapa e Instagram); omitir canonical, og:url e sitemap absoluto até haver domínio público real configurado; não inventar horário, preço ou coordenadas.
 - [x] Melhorias de desempenho sem dependência de fontes externas.
   - Critério: remover a importação de Google Fonts, usar pilhas de fontes locais, priorizar a imagem principal, carregar a imagem conceitual secundária de forma preguiçosa e aplicar cache curto a recursos estáticos, mantendo HTML e JSON sem cache.
 - [x] Layout responsivo para celular e desktop.
